@@ -857,12 +857,13 @@ input[type='email'].form-control:focus {
     margin: 0;
   }
   #forth-part a {
+    cursor: pointer !important;
     padding: 0;
     color: #2d3142;
   }
   #forth-part a:hover,
   #forth-part a:focus {
-    text-decoration: none;
+    text-decoration: underline;
   }
   .mobile-link {
     border-bottom: 1px solid rgb(151, 151, 151, 0.5);
