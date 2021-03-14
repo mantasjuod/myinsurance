@@ -766,6 +766,9 @@ input[type='email'].form-control:focus {
     color: #ef8354;
     text-decoration: none;
   }
+  .wrapper {
+    cursor: pointer !important;
+  }
   #all-mobile-nav-wrapper {
     padding-top: 10px;
     margin-top: 0;
