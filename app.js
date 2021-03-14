@@ -39,7 +39,7 @@ var swiper = new Swiper('.swiper-container', {
       slidesPerView: 4,
       spaceBetween: 0,
       direction: 'vertical',
-      touchRatio: 1,
+      touchRatio: 0,
       resistanceRatio: 1,
       updateOnWindowResize: true,
     },
