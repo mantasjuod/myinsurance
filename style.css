@@ -888,6 +888,7 @@ input[type='email'].form-control:focus {
   }
   .mobile-collapse {
     font-size: 12px;
+    cursor: pointer !important;
   }
   /* First menu link */
   #wrapper-1 li {
