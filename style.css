@@ -590,6 +590,9 @@ input[type='email'].form-control:focus {
 .scrollcatch {
   transition: all 0.3s ease-in-out;
 }
+[role='button'] {
+  cursor: pointer;
+}
 
 /* Media Query */
 @media (min-width: 992px) and (max-width: 1199.98px) {
