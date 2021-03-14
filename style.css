@@ -9,6 +9,10 @@
 body {
   font-family: 'Noto Serif', serif;
 }
+.row:before,
+.row:after {
+  display: none !important;
+}
 
 #nav-container {
   padding-right: 0;
