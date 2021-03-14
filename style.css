@@ -270,7 +270,7 @@ body {
 
 /* Swiper Box 1 */
 .swiper-box1 {
-  background: url(/build/images/pexels-dziana-hasanbekava-5589173.jpg);
+  background: url(images/pexels-dziana-hasanbekava-5589173.jpg);
   background-position: center;
   background-size: 200%;
   background-repeat: no-repeat;
@@ -284,7 +284,7 @@ body {
 }
 /* Swiper Box 2 */
 .swiper-box2 {
-  background: url(/build/images/dog-3071334_1280.jpg);
+  background: url(images/dog-3071334_1280.jpg);
   background-position: center;
   background-size: 200%;
   background-repeat: no-repeat;
@@ -298,7 +298,7 @@ body {
 }
 /* Swiper Box 3 */
 .swiper-box3 {
-  background: url(/build/images/swimming-976384_1280.jpg);
+  background: url(images/swimming-976384_1280.jpg);
   background-position: center;
   background-size: 200%;
   background-repeat: no-repeat;
@@ -312,7 +312,7 @@ body {
 }
 /* Swiper Box 4 */
 .swiper-box4 {
-  background: url(/build/images/pexels-pixabay-276724.jpg);
+  background: url(images/pexels-pixabay-276724.jpg);
   background-position: center;
   background-size: 200%;
   background-repeat: no-repeat;
