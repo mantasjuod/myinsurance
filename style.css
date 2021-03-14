@@ -411,7 +411,8 @@ footer {
 
 /* Footer header */
 .footer-header-text {
-  margin-top: 50px;
+  padding-top: 50px;
+  margin-top: 0px;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -1128,12 +1129,16 @@ input[type='email'].form-control:focus {
     margin-top: -50px;
   }
   /* Footer buttons */
+  #footer-button {
+    margin-bottom: -50px;
+  }
   #footer-button .btn {
     font-size: 14px;
   }
   /* Footer header */
   .footer-header-text {
-    margin-top: 100px;
+    padding-top: 90px;
+    margin-top: 20px;
     margin-bottom: 30px;
   }
   /* Footer header name */
