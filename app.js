@@ -237,24 +237,24 @@ hamburgerBtn.addEventListener('click', () => {
 });
 
 // Arrow rotation in mobile menu
-const collapseMenu = document.querySelectorAll('.nav-mobile-link');
-let collMenArray = Array.from(collapseMenu);
+// const collapseMenu = document.querySelectorAll('.nav-mobile-link');
+// let collMenArray = Array.from(collapseMenu);
 
-collMenArray.forEach((element) => {
-  const currentOpenMenu = element.parentElement.children[1];
-  const currentArrow =
-    element.parentElement.children[0].children[0].children[0];
-  element.addEventListener('click', () => {
-    const allArrows = document.querySelectorAll('.arrow-mobile');
-    let arrowArray = Array.from(allArrows);
-    arrowArray.forEach((arrowElement) => {
-      arrowElement.style.transform = 'rotate(0deg)';
-      if (!currentOpenMenu.classList.contains('show')) {
-        currentArrow.style.transform = 'rotate(90deg)';
-      }
-    });
-  });
-});
+// collMenArray.forEach((element) => {
+//   const currentOpenMenu = element.parentElement.children[1];
+//   const currentArrow =
+//     element.parentElement.children[0].children[0].children[0];
+//   element.addEventListener('click', () => {
+//     const allArrows = document.querySelectorAll('.arrow-mobile');
+//     let arrowArray = Array.from(allArrows);
+//     arrowArray.forEach((arrowElement) => {
+//       arrowElement.style.transform = 'rotate(0deg)';
+//       if (!currentOpenMenu.classList.contains('show')) {
+//         currentArrow.style.transform = 'rotate(90deg)';
+//       }
+//     });
+//   });
+// });
 
 // Lock scroll on mobile
 const lockScreenBtn = document
