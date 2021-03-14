@@ -132,7 +132,7 @@ form.addEventListener('submit', (e) => {
     email.disabled = true;
     submitBtn.disabled = true;
     submitBtn.style.backgroundColor = '#979797';
-    loader.style.display = 'block';
+    loader.style.display = 'flex';
     setTimeout(() => {
       form.reset();
       showAlert('Please fill in all fields', 'subAlert alertFail');
@@ -153,7 +153,7 @@ form.addEventListener('submit', (e) => {
     email.disabled = true;
     submitBtn.disabled = true;
     submitBtn.style.backgroundColor = '#979797';
-    loader.style.display = 'block';
+    loader.style.display = 'flex';
     setTimeout(() => {
       form.reset();
       showAlert('Thank you for your subscription', 'subAlert alertSuccess');
