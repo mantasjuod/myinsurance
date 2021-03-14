@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Insurance</title>
+  </head>
+  <body>
+    <!-- Top Nav -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-lg" id="nav-container">
+        <!-- Nav desktop -->
+        <div class="collapse navbar-collapse" id="navbarNav-desktop">
+          <ul class="navbar-nav mr-auto" id="leftNav">
+            <li class="nav-item active scrollcatch">
+              <a href="#!" class="nav-link">Private</a>
+            </li>
+            <li class="nav-item notactive-1 scrollcatch">
+              <a href="#!" class="nav-link">Business</a>
+            </li>
+            <li class="nav-item notactive-2 scrollcatch">
+              <a href="#!" class="nav-link">About MyIns</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto" id="rightNav">
+            <li class="nav-item">
+              <a href="#!" class="nav-link nav-account"
+                ><span><i class="fas fa-key"></i></span>&nbsp;Account</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#!" class="nav-link nav-number"
+                ><span><i class="fas fa-phone-volume"></i></span>&nbsp;1999</a
+              >
+            </li>
+            <li class="nav-item nav-incident-button">
+              <a href="#!" class="nav-link"
+                >Report incident <span><i class="fas fa-arrow-right"></i></span
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <!-- Nav mobile -->
+        <a class="navbar-brand-mobile" href="#!">My Insurance</a>
+        <div class="mobile-nav-buttons d-flex flex-row ml-auto  align-items-center">
+          <a href="#!" class="key-icon"><span><i class="fas fa-key"></i></span></a>
+          <a href="#!" class="phone-icon-text"><span><i class="fas fa-phone-volume"></i></span>&nbsp;1999</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse"           data-target="#navbarNav-mobile" aria-controls="navbarNav-mobile" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        </div>        
+        <div class="collapse navbar-collapse" id="navbarNav-mobile">
+          <div class="wrapper" id="all-mobile-nav-wrapper">
+                <div class="col-12" id="first-part">
+                    <a class="nav-item nav-link private-button" href="#">Private</a>&nbsp;&nbsp;
+                    &nbsp;<a class="nav-item nav-link business-button" href="#">Business</a>
+                </div>
+                <div class="col-12 d-block" id="second-part">
+                  <a class="nav-item nav-link report-button" href="#">Report incident</a>
+                </div>
+                <div class="col-12" id="third-part">
+                  <a href="#!" class="key-icon"><span><i class="fas fa-key"></i>&nbsp;Account</span></a>
+                  <a href="#!" class="phone-icon-text"><span><i class="fas fa-phone-volume"></i></span>&nbsp;(555) 555-1234</a>
+                </div>
+                <div class="col-12" id="forth-part">
+                  <div class="accordion" id="accordionExample">
+                  <div class="mobile-link">
+                    <a class="nav-item nav-link nav-mobile-link" data-toggle="collapse" href="#collapse1" id="link1">Insurance&nbsp;<span><i class="fas fa-arrow-right arrow-mobile" id="link1-arrow"></i></span
+                      ></a>
+                  <div class="collapse mobile-collapse" id="collapse1" data-parent="#accordionExample">
+                    <div class="wrapper" id="wrapper-1">
+                        <ul
+                        class="list-group list-group-flush flex-column"
+                      >
+                        <li class="list-group-item">
+                          <a href="#!">Transport</a>
+                        </li>
+                        <li class="list-group-item">
+                          <a href="#!">Property</a>
+                        </li>
+                        <li class="list-group-item">
+                          <a href="#!">Family</a>
+                        </li>
+                        <li class="list-group-item">
+                          <a href="#!">Vacations</a>
+                        </li>
+                        <li class="list-group-item">
+                          <a href="#!">Pet</a>
+                        </li>
+                        <li class="list-group-item">
+                          <a href="#!">Other</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="mobile-link">
+                    <a class="nav-item nav-link nav-mobile-link" data-toggle="collapse" href="#collapse2" id="link2">Company&nbsp;<span><i class="fas fa-arrow-right arrow-mobile" id="link2-arrow"></i></span
+                      ></a>
+                    <div class="collapse mobile-collapse" id="collapse2" data-parent="#accordionExample">
+                        <div class="wrapper" id="wrapper-2">
+                          <ul class="list-group list-group-flush flex-column">
+                            <li class="list-group-item"><a href="#!">Offers</a></li>
+                            <li class="list-group-item"><a href="#!">News</a></li>
+                            <li class="list-group-item"><a href="#!">For media</a></li>
+                            <li class="list-group-item"><a href="#!">Company history</a></li>
+                            <li class="list-group-item"><a href="#!">Partners</a></li>
+                          </ul>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="mobile-link">
+                    <a class="nav-item nav-link nav-mobile-link" data-toggle="collapse" href="#collapse3" id="link3">Contacts&nbsp;<span><i class="fas fa-arrow-right arrow-mobile" id="link3-arrow"></i></span
+                      ></a>
+                    <div class="collapse mobile-collapse" id="collapse3" data-parent="#accordionExample">
+                        <div class="wrapper" id="wrapper-3">
+                          <ul class="list-group list-group-flush flex-column">
+                            <li class="list-group-item"><a href="#!">Call us</a></li>
+                            <li class="list-group-item"><a href="#!">Send an email</a></li>
+                            <li class="list-group-item"><a href="#!">Find nearest branch</a></li>
+                            <li class="list-group-item"><a href="#!">All addresses</a></li>
+                          </ul>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="mobile-link mb-5 pb-5">
+                    <a class="nav-item nav-link" href="#!">Privacy Policy</a>
+                  </div>
+                  </div>
+                </div>
+               </div>
+              </div>
+          </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="container" id='header-container'>
+      <header class="header-main">
+        <div class="row d-flex flex-row">
+          <h1 class="header-name">My Insurance</h1>
+          <ul
+            class="list-group list-group-flush ml-auto flex-row"
+            id="header-nav"
+          >
+            <li class="list-group-item">
+              <a href="#!">Transport</a>
+            </li>
+            <li class="list-group-item">
+              <a href="#!">Property</a>
+            </li>
+            <li class="list-group-item">
+              <a href="#!">Family</a>
+            </li>
+            <li class="list-group-item">
+              <a href="#!">Vacations</a>
+            </li>
+            <li class="list-group-item">
+              <a href="#!">Pet</a>
+            </li>
+            <li class="list-group-item">
+              <a href="#!">Other</a>
+            </li>
+          </ul>
+        </div>
+      </header>
+    </div>
+
+    <!-- Main Slider -->
+    <div class="container-lg" id="slider1-container">
+      <div class="row">
+        <div
+          id="slider1"
+          class="carousel slide carousel-fade"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="/build/images/pexels-gya-den-2303781.jpg"
+                class="d-block img-fluid"
+                alt="First Slide"
+              />
+              <div class="carousel-caption" id="carousel-item1">
+                <div class="d-flex flex-column">
+                  
+                  <div class="col-lg-6 offset-lg-6 col-10 offset-2">
+                    <h3>Protect your vehicle everytime and everywhere.</h3>
+                    <p>My Insurance will cover you with various plans</p>
+                    <h5 id="carousel-item-button" class="d-inline">
+                      Explore Plans
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/build/images/walking-1081723_1280.jpg"
+                class="d-block img-fluid"
+                alt="Second Slide"
+              />
+              <div class="carousel-caption" id="carousel-item2">
+                <div class="d-flex flex-column">
+                  <div class="col-lg-4 offset-lg-1 col-11 offset-1">
+                    <h3>Family is important.</h3>
+                    <p>Plan your future with certanty</p>
+                    <h5 id="carousel-item-button" class="d-inline">
+                      Read More
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#slider1" class="carousel-control-prev" data-slide="prev">
+            <span><i class="fas fa-arrow-left"></i></span>
+          </a>
+          <a href="#slider1" class="carousel-control-next" data-slide="next">
+            <span><i class="fas fa-arrow-right"></i></span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service list -->
+    <div class="container-lg" id="service-container">
+      <div class="row d-flex flex-column align-items-center">
+        <div class="col-12" id="service-header">
+          <h3>Our Latest Offers</h3>
+        </div>
+        <div class="col-12" id="service-slider">
+          <div class="swiper-container">
+            <div class="swiper-button-next">
+              <span><i class="fas fa-arrow-right"></i></span>
+            </div>
+            <div class="swiper-button-prev">
+              <span><i class="fas fa-arrow-left"></i></span>
+            </div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide service-box">
+                <div class="swiper-box1 box-picker">
+                  <div class="dark-overlay">
+                    <div class="d-flex flex-column">
+                      <div class="col-12 flex-column mx-auto swiper-box-offer">
+                        <h3>Car Insurance</h3>
+                        <h3 style="font-size: 14px" id="mobileh3">
+                          Roadside assistance, access to a replacement vehicle
+                          anytime, starting from 230€
+                        </h3>
+                      </div>
+                      <div class="col-12 swiper-box-button">
+                        <a href="#!"><h3>Get a quote</h3></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide service-box">
+                <div class="swiper-box2 box-picker">
+                  <div class="dark-overlay">
+                    <div class="d-flex flex-column">
+                      <div class="col-12 flex-column mx-auto swiper-box-offer">
+                        <h3>Pet Insurance</h3>
+                        <h3 style="font-size: 14px" id="mobileh3">
+                          Regular heatlh checks, qualified vets and much more
+                        </h3>
+                      </div>
+                      <div class="col-12 swiper-box-button">
+                        <a href="#!"><h3>Get a quote</h3></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide service-box">
+                <div class="swiper-box3 box-picker">
+                  <div class="dark-overlay">
+                    <div class="d-flex flex-column">
+                      <div class="col-12 flex-column mx-auto swiper-box-offer">
+                        <h3>Travel Insurance</h3>
+                        <h3 style="font-size: 14px" id="mobileh3">
+                          Premium Travel insurance plan - 20% off!
+                        </h3>
+                      </div>
+                      <div class="col-12 swiper-box-button">
+                        <a href="#!"><h3>Grab it now!</h3></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide service-box">
+                <div class="swiper-box4 box-picker">
+                  <div class="dark-overlay">
+                    <div class="d-flex flex-column">
+                      <div class="col-12 flex-column mx-auto swiper-box-offer">
+                        <h3>Premium Home Insurance</h3>
+                        <h3 style="font-size: 14px" id="mobileh3">
+                          Rated 4+ home insurance starts from just 170€
+                        </h3>
+                      </div>
+                      <div class="col-12 swiper-box-button">
+                        <a href="#!"><h3>Get a quote</h3></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="container-lg" id="contacts-container">
+      <div class="row">
+        <hr />
+        <div class="col-12 contact-list">
+          <p>
+            Do you have questions about your insurance? Contact My Insurance by
+            phone, email or find branch nearest to You:
+          </p>
+        </div>
+        <div class="col-12 d-flex flex-column flex-md-row" id="footer-button">
+          <button class="btn">
+            <span><i class="fas fa-inbox"></i></span>&nbsp;Send an email
+          </button>
+          <button class="btn">
+            <span><i class="fas fa-phone-volume"></i></span>&nbsp;Call us
+          </button>
+          <button class="btn">
+            <span><i class="fas fa-map-marker-alt"></i></span>&nbsp;Find
+            nearest branch
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="container-lg" id="footer-container">
+        <div class="row">
+          <div class="col-12">
+            <div class="footer-header-text">
+              <p class="name">My Insurance</p>
+              <p>Leading insurance company since 1979</p>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-column flex-md-row  footer-menu">
+            <div class="col-12 col-md-3">
+              <div class="bar1">
+                <h3>About us</h3>
+                <ul class="list-group list-group-flush list-unstyled bar1menu">
+                  <li><a href="#!">Contacts</a></li>
+                  <li><a href="#!">News</a></li>
+                  <li><a href="#!">Privacy Policy</a></li>
+                  <li><a href="#!">Want to work for My Insurance?</a></li>
+                  <li><a href="#!" class="apply-btn">Apply</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex flex-column" id="footer-midle-column">
+              <div class="bar2 d-flex flex-column">
+                <h3>Sign up for news</h3>
+                <form id="form">
+                  <div class="form-row">
+                    <div class="col-4 offset-1 col-md-4 offset-md-0 col-lg-4 col-xl-5 p-0">
+                      <div class="form-box1">
+                      <input
+                        type="name"
+                        class="form-control"
+                        placeholder="Name"
+                        maxlength="20"
+                        id="submitName"
+                        autocomplete="off"
+                      />
+                    </div>
+                  </div>
+                    <div class="col-4 col-md-4 col-lg-4 col-xl-5 p-0">
+                      <div class="form-box2">
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Email"
+                        maxlength="30"
+                        id="submitEmail"
+                        autocomplete="off"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-2 col-md-2 col-lg-2 p-0">
+                      <div class="form-box3">
+                      <input type="submit" value="Submit" id="submitButton" class="form-control"></input>
+                    </div>
+                  </div>
+                  </div>
+                </form>
+                <div class="loader">
+                  <img src="/build/images/Ellipsis-1.1s-100px.gif" alt="" />
+                </div>
+                <div class="alert-place"></div>
+              </div>
+            </div>
+            <div class="col-12 col-md-3" id="footer-last-column">
+              <div class="bar3">
+                <h3>Get in touch</h3>
+                <div class="social-icons">
+                  <span><i class="fab fa-facebook"></i></span>
+                  <span><i class="fab fa-linkedin"></i></span>
+                  <span><i class="fab fa-twitter"></i></span>
+                </div>
+                <p>Emergency number: 1991</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 copyright">
+            <hr />
+            My Insurance © 2021 Legal
+          </div>
+        </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/build/app.js"></script>
+  </body>
+</html>
