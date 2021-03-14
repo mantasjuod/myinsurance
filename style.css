@@ -862,6 +862,9 @@ input[type='email'].form-control:focus {
   #forth-part a:hover {
     text-decoration: underline;
   }
+  .nav-mobile-link {
+    cursor: pointer;
+  }
   .mobile-link {
     border-bottom: 1px solid rgb(151, 151, 151, 0.5);
     padding: 0;
@@ -869,6 +872,7 @@ input[type='email'].form-control:focus {
     margin-right: 25px;
     padding-top: 15px;
     padding-bottom: 15px;
+    cursor: pointer;
   }
   .mobile-link:last-child {
     border-bottom: 0;
