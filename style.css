@@ -394,6 +394,8 @@ footer {
   color: #2d3142;
   white-space: nowrap;
   width: 200px;
+  cursor: pointer;
+  z-index: 999;
 }
 #footer-button .btn:hover {
   background: #2d3142;
@@ -661,11 +663,7 @@ input[type='email'].form-control:focus {
   .privary-link-mobile {
     margin-bottom: 200px;
   }
-  /* Accordion Mobile Menu */
-  #accordionExample {
-    /* overflow: auto !important; */
-    cursor: pointer !important;
-  }
+
   /* Navbar menu icon */
   .navbar-toggler {
     padding-left: 10px;
@@ -766,9 +764,6 @@ input[type='email'].form-control:focus {
     color: #ef8354;
     text-decoration: none;
   }
-  .wrapper {
-    cursor: pointer !important;
-  }
   #all-mobile-nav-wrapper {
     padding-top: 10px;
     margin-top: 0;
@@ -860,18 +855,14 @@ input[type='email'].form-control:focus {
     align-self: flex-start;
     padding: 0;
     margin: 0;
-    cursor: pointer !important;
   }
   #forth-part a {
     padding: 0;
     color: #2d3142;
-    cursor: pointer !important;
   }
-  #forth-part a:hover {
-    text-decoration: underline;
-  }
-  .nav-mobile-link {
-    cursor: pointer !important;
+  #forth-part a:hover,
+  #forth-part a:focus {
+    text-decoration: none;
   }
   .mobile-link {
     border-bottom: 1px solid rgb(151, 151, 151, 0.5);
@@ -880,7 +871,6 @@ input[type='email'].form-control:focus {
     margin-right: 25px;
     padding-top: 15px;
     padding-bottom: 15px;
-    cursor: pointer !important;
   }
   .mobile-link:last-child {
     border-bottom: 0;
