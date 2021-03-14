@@ -661,7 +661,10 @@ input[type='email'].form-control:focus {
   .privary-link-mobile {
     margin-bottom: 200px;
   }
-
+  /* Accordion Mobile Menu */
+  #accordionExample {
+    overflow: auto !important;
+  }
   /* Navbar menu icon */
   .navbar-toggler {
     padding-left: 10px;
