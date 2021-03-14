@@ -39,8 +39,9 @@ var swiper = new Swiper('.swiper-container', {
       slidesPerView: 4,
       spaceBetween: 0,
       direction: 'vertical',
-      touchRatio: 0,
+      touchRatio: 1,
       resistanceRatio: 1,
+      simulateTouch: false,
       updateOnWindowResize: true,
     },
     768: {

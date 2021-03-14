@@ -629,7 +629,7 @@ input[type='email'].form-control:focus {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 999;
+    z-index: 9999;
   }
   #navbarNav-mobile {
     display: none !important;
@@ -656,6 +656,10 @@ input[type='email'].form-control:focus {
   }
   #navbarNav-desktop {
     display: none !important;
+  }
+  /* Navbar Mobile */
+  #navbarNav-mobile {
+    z-index: 9999;
   }
 
   /* Navbar menu icon */
@@ -701,7 +705,7 @@ input[type='email'].form-control:focus {
     padding-bottom: 15px;
     border-bottom: 1px solid rgb(151, 151, 151, 0.5);
     position: relative;
-    z-index: 2;
+    z-index: 9999;
   }
   .navbar-collapse {
     height: 100vh;
@@ -763,7 +767,8 @@ input[type='email'].form-control:focus {
     margin-top: 0;
     font-size: 15px;
     height: 100vh !important;
-    overflow-y: auto;
+    overflow: auto !important;
+    z-index: 9999;
   }
   /* First two buttons */
   #first-part {
@@ -777,7 +782,7 @@ input[type='email'].form-control:focus {
     border-bottom: 1px solid rgb(151, 151, 151, 0.5);
     padding-bottom: 20px;
     margin-bottom: 20px;
-    overflow: auto;
+    overflow: auto !important;
   }
   #first-part .private-button {
     color: #2d3142;
@@ -806,7 +811,7 @@ input[type='email'].form-control:focus {
     margin: 0;
     padding: 0;
     text-align: center;
-    overflow: auto;
+    overflow: auto !important;
   }
   #second-part a {
     background: #2d3142;
@@ -829,7 +834,7 @@ input[type='email'].form-control:focus {
     margin-bottom: 20px;
     padding-left: 25px;
     padding-right: 25px;
-    overflow: auto;
+    overflow: auto !important;
   }
   #third-part a {
     color: #2d3142;
@@ -850,7 +855,7 @@ input[type='email'].form-control:focus {
     align-self: flex-start;
     padding: 0;
     margin: 0;
-    overflow: auto;
+    overflow: auto !important;
   }
   #forth-part a {
     padding: 0;
