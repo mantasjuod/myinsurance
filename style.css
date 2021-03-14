@@ -663,7 +663,7 @@ input[type='email'].form-control:focus {
   }
   /* Accordion Mobile Menu */
   #accordionExample {
-    overflow: auto !important;
+    /* overflow: auto !important; */
     cursor: pointer !important;
   }
   /* Navbar menu icon */
@@ -771,7 +771,9 @@ input[type='email'].form-control:focus {
     margin-top: 0;
     font-size: 15px;
     height: 100vh !important;
-    overflow-y: auto !important;
+  }
+  #navbarNav-mobile {
+    overflow: scroll !important;
   }
   /* First two buttons */
   #first-part {
